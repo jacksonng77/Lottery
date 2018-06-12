@@ -79,7 +79,7 @@ contract Lottery is usingOraclize {
             newOraclizeQuery("Oraclize query was NOT sent, please add some ETH to cover for the query fee");
         } else {
             newOraclizeQuery("Oraclize query was sent, standing by for the answer..");
-            oraclize_query("URL", "json(https://jacksonng.org/friendszone/random.php/).random");
+            oraclize_query("URL", "json(https://jacksonng.org/codetest/random.php/).random");
         }
     }
 	
