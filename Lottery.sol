@@ -49,7 +49,6 @@ contract Lottery is usingOraclize {
 	
     function bet(string _betNumber)
         public
-	onlyBetter
         inState(State.Created)
         condition(msg.value == (1 ether))
         payable
